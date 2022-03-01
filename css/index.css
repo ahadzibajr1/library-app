@@ -1,0 +1,91 @@
+body {
+    background-color: #9A8755
+}
+
+h1 {
+    color: white;
+    font-family: 'Nova Slim', sans-serif;
+    font-size: 42;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#books {
+    background-color: #DECDA3;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    height:65%;
+}
+
+#table-div {
+    position: relative;
+}
+
+#scroll {
+    height: 350px;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border: none;
+}
+
+#table-div table thead th .text {
+    position: absolute;
+    top:-20px;
+    z-index:2;
+    height:20px;
+    width:35%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+thead {
+    background-color: #7A6F51;
+}
+
+th {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 32px;
+    width: 33%;
+    color: white;
+    border: none;
+}
+
+td {
+    background-color: white;
+    color: #403928;
+    padding: 10px;
+}
+
+button {
+    background-color: transparent;
+    color: #403928;
+    font-size: 20px;
+    font-family: 'Arima Madurai', cursive;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#addButton {
+    background-color: #7A6F51;
+    border-radius: 5%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin:10px 40% 10px 40%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Arima Madurai', cursive;
+}
