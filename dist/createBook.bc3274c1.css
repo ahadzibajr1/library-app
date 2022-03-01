@@ -1,0 +1,66 @@
+body {
+    background-color: #9A8755
+}
+
+h1 {
+    color: white;
+    font-family: 'Nova Slim', sans-serif;
+    font-size: 42;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#book-form-container {
+    background-color: #DECDA3;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    height:65%;
+}
+
+label,input {
+    display: block;
+    width:auto;
+}
+
+label {
+    font-family: 'Arima Madurai',cursive;
+    font-size: 32px;
+    color: #403928;
+}
+
+input,select {
+    height: 50px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+#add {
+    display: block;
+    background-color: #7A6F51;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Arima Madurai',cursive;
+    font-size: 20px;
+    width: 200px;
+    height: auto;
+    margin: 20px auto 20px auto;
+}
+
+#add:hover {
+    cursor: pointer;
+}
+
+.error {
+    color:red;
+    font-size: 20px;
+    display: none;
+}
+
+/*# sourceMappingURL=/createBook.bc3274c1.css.map */
